@@ -18,19 +18,19 @@ export default function SigninForm() {
         >
             <Card
                 id="signinForm"
-                className="w-full max-w-md p-6"
+                className="w-[90%] max-w-md p-6"
             >
                 <CardHeader className="space-y-4 text-center">
                     <CardTitle
                         id="signinText"
                         className="my-6"
                     >
-                        <h2>Signin</h2>
+                        <h2 className="uppercase">Sign in</h2>
                     </CardTitle>
                 </CardHeader>
 
                 <CardContent className="space-y-8">
-                    <div className="flex justify-center items-center gap-10">
+                    <div className="flex justify-center items-center gap-8">
                         <AppleIcon type="login" />
                         <GoogleIcon type="login" />
                         <GithubIcon type="login" />
