@@ -1,6 +1,7 @@
 import React from "react";
 import ThemeToggleButton from "./ThemeToggleButton";
 import LoginButton from "./LoginButton";
+import Link from "next/link";
 
 export default function Navbar() {
     return (
@@ -12,7 +13,9 @@ export default function Navbar() {
                 id="logo"
                 className="text-lg font-semibold"
             >
-                <h1>Logo</h1>
+                <Link href="/">
+                    <h1>Logo</h1>
+                </Link>
             </div>
 
             <div
